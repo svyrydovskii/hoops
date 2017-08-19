@@ -125,8 +125,6 @@
                             <executable>${npm.name}</executable>
                             <arguments>
                                 <argument>install</argument>
-                                <argument>--loglevel</argument>
-                                <argument>verbose</argument>
                             </arguments>
                         </configuration>
                         <goals>
