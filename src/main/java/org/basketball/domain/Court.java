@@ -113,10 +113,6 @@ public class Court {
         return comments;
     }
 
-    public void setComments(List<Comment> comments) {
-        this.comments = comments;
-    }
-
     //    @ElementCollection
 //    private List<String> photos;
 
