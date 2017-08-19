@@ -136,7 +136,7 @@
                         <phase>generate-sources</phase>
                         <configuration>
                             <workingDirectory>${basedir}/src/frontend</workingDirectory>
-                            <executable>npm.cmd</executable>
+                            <executable>${npm.name}</executable>
                             <arguments>
                                 <argument>run</argument>
                                 <argument>build</argument>
