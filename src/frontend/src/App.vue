@@ -1,12 +1,15 @@
 <template>
   <div id="app">
-    <div class="mui-appbar"></div>
+    <navigation></navigation>
     <router-view></router-view>
   </div>
 </template>
 
 <script>
+
+import navigation from '@/components/navigation'
 export default {
+  components: {navigation},
   name: 'app'
 }
 </script>
@@ -22,7 +25,6 @@ html, body, #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
 }
 </style>
