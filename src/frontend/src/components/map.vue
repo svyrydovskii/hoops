@@ -40,7 +40,6 @@
           let url = 'http://localhost:8090';
           this.$http.get(url)
           .then(function (response) {
-            console.log(response.data)
             response.data.forEach((el) => {
               this.markers.push({position: el})
             })
